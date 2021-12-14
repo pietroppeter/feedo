@@ -13,7 +13,7 @@ jobs:
       - name: install Nim
         uses: iffy/install-nim@v3
       - name: install dependencies
-        run: nimble install nimib puppy rss
+        run: nimble install -y nimib puppy rss
       - name: gather feeds and create reader page
         run: nim r -d:release needo
       - name: publish
