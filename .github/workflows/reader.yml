@@ -15,9 +15,9 @@ jobs:
       - name: install dependencies
         run: nimble install -y nimib puppy rss
       - name: gather feeds and create reader page
-        run: nim r -d:release index
+        run: nim r -d:release index --nbFilename:docs/index.html
       - name: publish
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: docs
