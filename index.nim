@@ -1,7 +1,7 @@
 import nimib, strutils, strformat, puppy, rss
 
 nbInit
-nb.partials["header_left"] = "🐣 <code>needo - rss reader</code>"
+nb.partials["header_left"] = "🐶 <code>feedo - rss reader</code>"
 nb.partials["header_center"] = ""
 
 var content = ""
