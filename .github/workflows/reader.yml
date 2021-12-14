@@ -15,7 +15,7 @@ jobs:
       - name: install dependencies
         run: nimble install -y nimib puppy rss
       - name: gather feeds and create reader page
-        run: nim r -d:release needo
+        run: nim r -d:release index
       - name: publish
         uses: peaceiris/actions-gh-pages@v3
         with:
