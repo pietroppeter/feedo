@@ -1,6 +1,6 @@
-# 🐣 needo
+# 🐶 feedo
 
-Minimalistic static rss reader built with nim(ib)
+Minimalistic static rss reader built with nim(ib): https://pietroppeter.github.io/feedo/
 
 Inspired by https://github.com/georgemandis/bubo-rss
 
