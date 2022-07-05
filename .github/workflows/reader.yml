@@ -3,7 +3,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '13 12 * * *'
+    - cron: '13 12 * * 0' # https://crontab.guru/#13_12_*_*_0 -> At 12:13 on Sunday
 
 jobs:
   gh-docs:
